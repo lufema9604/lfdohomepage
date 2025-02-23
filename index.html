@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +9,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
+            margin: 10px;
             padding: 0;
             background-color: #f9f9f9;
             color: #333;
@@ -15,12 +17,13 @@
         header {
             background-color: #4CAF50;
             color: white;
-            padding: 20px;
+            padding: 0;
             text-align: center;
             position: sticky;
-            top: 0;
+            top: 10px;
+            border-radius: 10px;
             z-index: 1000;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 8px rgba(0,0,0,0);
         }
         nav {
             margin-top: 10px;
@@ -36,18 +39,22 @@
         }
         .container {
             max-width: 1000px;
-            margin: 20px auto;
+            margin: 10px auto;
             background-color: white;
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            box-shadow: 0 0 10px rgba(1,1,1,1);
         }
-        h1, h2 {
+        h1 {
+            color: white;
+            font-size:18px;
+        }
+        h2{
             color: #4CAF50;
         }
         .photo {
             text-align: center;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
         }
         .photo img {
             border-radius: 50%;
@@ -62,7 +69,7 @@
         .social a {
             margin: 0 10px;
             color: #4CAF50;
-            font-size: 24px;
+            font-size: 12px;
             text-decoration: none;
         }
         .resources {
@@ -77,6 +84,7 @@
             padding: 20px;
             background-color: #333;
             color: white;
+            border-radius: 10px;
         }
         a {
             color: #4CAF50;
@@ -87,6 +95,7 @@
         }
     </style>
 </head>
+
 <body>
     <header>
         <h1>Luis F. Madrigal Ayala - Professional Homepage</h1>
@@ -103,7 +112,7 @@
         </section>
         <section class="presentation">
             <h2>About Me</h2>
-            <p> Hello, I am Luis Fernando Madrigal Ayala, currently pursuing a Ph.D. degree in Astrophysics at the Universidad de Guanajuato. 
+            <p> Hello, I am Luis Fernando Madrigal Ayala, currently pursuing a Ph.D. degree in Astrophysics at the Universidad de Guanajuato.
             My research focuses on the physical mechanisms and transformation of galaxies in clusters, specifically studying tidal forces and ram pressure stripping.
             I work under the supervision of Dr. Héctor Bravo Alfaro, and I am passionate about understanding how these processes shape the evolution of galaxies 
             in different environments.</p>
@@ -128,17 +137,17 @@
             </div>
         </section>
 
-        <section id="contact" class="social">
-            <h2>Contact Me</h2>
-            <p>Feel free to connect with me on social media or send me an email.</p>
-            <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
-            <a href="mailto:lf.madrigalayala@ugto.mx">Email Me</a>
-        </section>
     </div>
 
     <footer>
         <p>&copy; 2025 Luis Fernando Madrigal Ayala. All rights reserved.</p>
+        <section id="contact" class="social">
+            <p>Feel free to connect with me on social media or send me an email.</p>
+            <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+            <a href="mailto:lf.madrigalayala@ugto.mx">e-mail me</a>
+        </section>
     </footer>
 </body>
+
 </html>
 
